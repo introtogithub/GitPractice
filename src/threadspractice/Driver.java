@@ -6,7 +6,7 @@ public class Driver {
     public static void main(String[] args) {
         
         OrderQueue orders = new OrderQueue();
-        
+//        These are the threads 1 to three
         Thread tm = new Thread(new TaskMaster(orders));
         Thread w1 = new Thread(new Worker(orders, 1));
         Thread w2 = new Thread(new Worker(orders, 2));
