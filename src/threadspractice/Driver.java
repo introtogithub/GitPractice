@@ -1,6 +1,7 @@
 package threadspractice;
 
 public class Driver {
+//    This is the driver class that runs the threads
 
     public static void main(String[] args) {
         
